@@ -3,6 +3,9 @@ using namespace std;
 
 int main() {
 
+    
+
+
   int*ptr=new int[3];
 
   *ptr=10;
