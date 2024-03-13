@@ -12,6 +12,17 @@ int main(){
         ptr[i]=new char[column];
     }
 
+    cout<<"Before Insertion"<<endl;
+    for (int i = 0; i < row; i++)
+    {
+        for (int j = 0; j < column; j++)
+        {
+            //cout<<ptr[i][j]<<"\t";
+            cout << *(*(ptr+i)+j)<<"\t" ;
+        }
+        cout<<endl;
+    }
+
     for (int i = 0; i < row; i++)
     {
         cout<<"Row "<<i<<"\t"<<endl;
@@ -34,7 +45,22 @@ int main(){
         cout<<endl;
     }
     
-    
+    for (int i = 0; i < row; i++)
+    {
+        delete [] ptr[i];
+    }
+    delete [] ptr;
+
+    cout<<"After Deallocating"<<endl;
+    for (int i = 0; i < row; i++)
+    {
+        for (int j = 0; j < column; j++)
+        {
+            //cout<<ptr[i][j]<<"\t";
+            cout << *(*(ptr+i)+j)<<"\t" ;
+        }
+        cout<<endl;
+    }
 
      return 0;
 }
