@@ -3,13 +3,13 @@ using namespace std;
 
 int main(){
 
-    int row=3,column=4;
+    char row=3,column=4;
 
-    int **ptr=new int*[row];
+    char **ptr=new char*[row];
 
     for (int i = 0; i < row; i++)
     {
-        ptr[i]=new int[column];
+        ptr[i]=new char[column];
     }
 
     for (int i = 0; i < row; i++)
