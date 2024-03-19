@@ -8,7 +8,7 @@ int main() {
     
     
     mylist.sort(); 
-   cout << "Sorted list: ";
+     cout << "Sorted list: ";
     for (const auto& elem : mylist) {
        cout << elem << " ";
     }
