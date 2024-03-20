@@ -45,5 +45,15 @@ void input() {
 
 int main() {
     input();
+
+cout << "Linked List IDs:" << endl;
+    struct student* temp = head;
+    while (temp != nullptr) {
+        cout << temp->id << " ";
+        temp = temp->next;
+    }
+    cout << endl;
+    
+
     return 0;
 }
