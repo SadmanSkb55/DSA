@@ -40,9 +40,18 @@ void input(){
     insert(id);
     }
 }
+void printList() {
+    struct student* temp = head;
+    while (temp != NULL) {
+        printf("%d ", temp->id);
+        temp = temp->next;
+    }
+    printf("\n");
+}
 
-int main()
-{
-   input();
-   return 0;
+int main() {
+    input();
+    printf("Linked List IDs: ");
+    printList();
+    return 0;
 }
