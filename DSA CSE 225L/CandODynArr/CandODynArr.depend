@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1711347633 source:d:\codeblocks\candodynarr\dynarr.cpp
+	"dynarr.h"
+	<iostream>
+
+1711347640 d:\codeblocks\candodynarr\dynarr.h
+
