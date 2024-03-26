@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1711467529 source:d:\codeblocks\dynarr2dragged\dynarr2dragged.cpp
+	"dynArr2DRagged.h"
+	<iostream>
+
+1711467885 d:\codeblocks\dynarr2dragged\dynarr2dragged.h
+
+1711467823 source:d:\codeblocks\dynarr2dragged\main.cpp
+	<iostream>
+	"dynArr2DRagged.h"
+
