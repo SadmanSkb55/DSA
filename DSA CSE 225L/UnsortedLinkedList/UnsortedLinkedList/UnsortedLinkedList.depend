@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1712046405 source:c:\users\tanvir\onedrive\work\lab instructor (nsu)\cse225\cse225l - spring 2024\code\latest tasks\unsortedlinkedlist\unsortedtype.cpp
+	"unsortedtype.h"
+	<iostream>
+
+1712045626 c:\users\tanvir\onedrive\work\lab instructor (nsu)\cse225\cse225l - spring 2024\code\latest tasks\unsortedlinkedlist\unsortedtype.h
+
+1712045667 source:c:\users\tanvir\onedrive\work\lab instructor (nsu)\cse225\cse225l - spring 2024\code\latest tasks\unsortedlinkedlist\main.cpp
+	<iostream>
+	"unsortedtype.cpp"
+
+1712046405 c:\users\tanvir\onedrive\work\lab instructor (nsu)\cse225\cse225l - spring 2024\code\latest tasks\unsortedlinkedlist\unsortedtype.cpp
+	"unsortedtype.h"
+	<iostream>
+
+1712120043 source:c:\users\sadma\dropbox\pc\downloads\unsortedlinkedlist\unsortedlinkedlist\main.cpp
+	<iostream>
+	"unsortedtype.cpp"
+
+1712120043 c:\users\sadma\dropbox\pc\downloads\unsortedlinkedlist\unsortedlinkedlist\unsortedtype.cpp
+	"unsortedtype.h"
+	<iostream>
+
+1712120043 c:\users\sadma\dropbox\pc\downloads\unsortedlinkedlist\unsortedlinkedlist\unsortedtype.h
+
+1712120043 source:c:\users\sadma\dropbox\pc\downloads\unsortedlinkedlist\unsortedlinkedlist\unsortedtype.cpp
+	"unsortedtype.h"
+	<iostream>
+
