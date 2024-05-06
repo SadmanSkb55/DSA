@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1714974984 source:d:\codeblocks\sortedlistlinkedlist\sortedtype.cpp
+	"sortedtype.h"
+	<iostream>
+
+1714974994 d:\codeblocks\sortedlistlinkedlist\sortedtype.h
+
+1714974981 source:d:\codeblocks\sortedlistlinkedlist\timestamp.cpp
+	<iostream>
+	"timestamp.h"
+
+1714974978 d:\codeblocks\sortedlistlinkedlist\timestamp.h
+
