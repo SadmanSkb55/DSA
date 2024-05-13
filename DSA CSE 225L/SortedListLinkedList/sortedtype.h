@@ -14,12 +14,12 @@ SortedType();
 bool IsFull();
 int LengthIs();
 void MakeEmpty();
-void RetrieveItem(ItemType&,
-bool&);
+void RetrieveItem(ItemType&,bool&);
 void InsertItem(ItemType);
 void DeleteItem(ItemType);
 void ResetList();
 void GetNextItem(ItemType&);
+
 private:
 NodeType* listData;
 int length;

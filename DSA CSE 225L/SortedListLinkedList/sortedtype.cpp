@@ -22,6 +22,7 @@ try
 location = new NodeType;
 delete location;
 return false;
+
 }
 catch(bad_alloc& exception)
 {

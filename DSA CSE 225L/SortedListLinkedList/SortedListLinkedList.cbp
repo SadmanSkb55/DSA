@@ -33,6 +33,10 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="main.cpp" />
+		<Unit filename="sortedtype.cpp" />
+		<Unit filename="sortedtype.h" />
+		<Unit filename="timestamp.cpp" />
+		<Unit filename="timestamp.h" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>

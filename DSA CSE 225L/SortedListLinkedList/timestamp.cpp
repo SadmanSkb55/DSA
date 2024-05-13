@@ -12,7 +12,7 @@ timestamp::timestamp(int ss,int mm,int hh){
     this->hh=hh;
 }
 void timestamp::print(){
-    cout<< ss << ":" << mm <<":"<<hh<<endl;
+    cout<< ss << " : " << mm <<" : "<<hh<<endl;
 }
 int timestamp::getseconds(){
     return ss;
@@ -22,4 +22,18 @@ int timestamp:: getMinutes(){
 }
 int timestamp:: getHours(){
     return hh;
+}
+
+bool timestamp::operator<(timestamp t){
+    if(hh<t.getHours())
+        return true;
+    else
+        return false;
+}
+
+bool timestamp:: operator==(timestamp t){
+    if(hh==t.getHours())
+        return true;
+    else
+        return false;
 }
