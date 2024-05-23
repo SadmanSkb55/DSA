@@ -1,3 +1,4 @@
+
 #include "dynArr.h"
 #include <iostream>
 using namespace std;
@@ -28,10 +29,3 @@ int dynArr::getValue(int index) {
     }
     return -1;
 }
-
-void dynArr::allocate(int s) {
-    delete[] data;
-    data = new int[s];
-    size = s;
-}
-

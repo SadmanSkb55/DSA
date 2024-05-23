@@ -1,3 +1,4 @@
+
 #ifndef DYNARR_H_INCLUDED
 #define DYNARR_H_INCLUDED
 
@@ -12,8 +13,6 @@ public:
 
     void setValue(int index, int value);
     int getValue(int index);
-    void allocate(int s);
 };
 
 #endif // DYNARR_H_INCLUDED
-
