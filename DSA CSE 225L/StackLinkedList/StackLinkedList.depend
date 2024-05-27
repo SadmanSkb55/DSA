@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1716788162 source:d:\codeblocks\stacklinkedlist\stacktype.cpp
+	<iostream>
+	"stacktype.h"
+
+1716788162 d:\codeblocks\stacklinkedlist\stacktype.h
+

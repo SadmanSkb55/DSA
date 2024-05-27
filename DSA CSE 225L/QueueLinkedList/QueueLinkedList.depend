@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1716789545 source:d:\codeblocks\queuelinkedlist\quetype.cpp
+	"quetype.h"
+	<iostream>
+
+1716789301 d:\codeblocks\queuelinkedlist\quetype.h
+
