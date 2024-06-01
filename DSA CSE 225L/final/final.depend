@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1717051262 source:d:\codeblocks\final\quetype.cpp
+	"quetype.h"
+	<iostream>
+
+1717051262 d:\codeblocks\final\quetype.h
+
+1717051262 source:d:\codeblocks\final\stacktype.cpp
+	<iostream>
+	"stacktype.h"
+
+1717051262 d:\codeblocks\final\stacktype.h
+
+1717051557 source:d:\codeblocks\final\main.cpp
+	<iostream>
+	"quetype.cpp"
+	"stacktype.cpp"
+
+1717051262 d:\codeblocks\final\quetype.cpp
+	"quetype.h"
+	<iostream>
+
+1717051262 d:\codeblocks\final\stacktype.cpp
+	<iostream>
+	"stacktype.h"
+
